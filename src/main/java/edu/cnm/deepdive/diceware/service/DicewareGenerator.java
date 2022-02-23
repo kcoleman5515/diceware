@@ -8,8 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class DicewareGenerator implements
-    PassphraseGenerator {
+public class DicewareGenerator implements PassphraseGenerator {
 
   private final Random rng;
   private final List<String> words;
